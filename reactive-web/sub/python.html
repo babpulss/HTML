@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <style>
+            body{background-color:black;}
+            /*            *{color:goldenrod; border:1px solid darkred; font-family:consolas;}*/
+            *{font-family:consolas; color:goldenrod;}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top text-center">
+            <a class="navbar-brand" href="../main.html">HOME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardropdown"  data-toggle="dropdown" href="#">About Java</a>
+                        <div class="dropdown-menu text-center mx-0 my-0 py-0">
+                            <a class="dropdown-item" href="java.html">What is Java?</a>
+                            <a class="dropdown-item" href="https://www.java.com/ko/download/win10.jsp" target="_sub">JDK Download</a>
+                            <a class="dropdown-item" href="https://jdk.java.net/" target="_sub">OpenJDK Download</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardropdown"  data-toggle="dropdown" href="#">About C</a>
+                        <div class="dropdown-menu text-center">
+                            <a class="dropdown-item" href="c.html">What is C?</a>
+                            <a class="dropdown-item disabled bg-danger text-light" href="#">What is C++?(Under construction page)</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbardropdown"  data-toggle="dropdown" href="#">About C#</a>
+                        <div class="dropdown-menu text-center">
+                            <a class="dropdown-item" href="csharp.html">What is C#?</a>
+                            <a class="dropdown-item" href="https://www.microsoft.com/en-us/download/details.aspx?id=7029" target="_sub">C# Download</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="board.html">Board</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container px-2 border border-danger">
+            <h1>What is <strong>Python?</strong></h1>
+            <p>
+                Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.<img src="python_logo.webp" class="bg-light img-thumbnail float-right"><br>
+
+Python is dynamically typed and garbage-collected. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is often described as a "batteries included" language due to its comprehensive standard library.<br>
+
+Python was conceived in the late 1980s as a successor to the ABC language. Python 2.0, released 2000, introduced features like list comprehensions and a garbage collection system capable of collecting reference cycles. Python 3.0, released 2008, was a major revision of the language that is not completely backward-compatible, and much Python 2 code does not run unmodified on Python 3. Due to concern about the amount of code written for Python 2, support for Python 2.7 (the last release in the 2.x series) was extended to 2020. Language developer Guido van Rossum shouldered sole responsibility for the project until July 2018 but now shares his leadership as a member of a five-person steering council.<br>
+
+The Python 2 language, i.e. Python 2.7.x, is "sunsetting" on January 1, 2020, and the Python team of volunteers will not fix security issues, or improve it in other ways after that date. With the end-of-life, only Python 3.6.x and later, e.g. Python 3.8 which should be released in October 2019 (currently in beta), will be supported.<br>
+
+Python interpreters are available for many operating systems. A global community of programmers develops and maintains CPython, an open source reference implementation. A non-profit organization, the Python Software Foundation, manages and directs resources for Python and CPython development.<br>
+           <br>
+           <h1>History</h1>
+
+Guido van Rossum at OSCON 2006<br>
+Main article: History of Python<br>
+Python was conceived in the late 1980s Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL), of exception handling and interfacing with the Amoeba operating system. implementation began in December 1989. Rossum continued as Python's lead developer until July 12, 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker. January, 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project. 2.0 was released on 16 October 2000 with many major new features, including a cycle-detecting garbage collector and support for Unicode. 3.0 was released on 3 December 2008. It was a major revision of the language that is not completely backward-compatible. of its major features were backported to Python 2.6.x 2.7.x version series. Releases of Python 3 include the 2to3 utility, which automates (at least partially) the translation of Python 2 code to Python 3. 2.7's end-of-life date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3. In January 2017, Google announced work on a Python 2.7 to Go transcompiler to improve performance under concurrent workloads.<br>
+            </p>
+        </div>
+    </body>
+</html>
